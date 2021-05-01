@@ -8,7 +8,7 @@ endif
 
 all: GeothmeticMeandian
 
-GeothmeticMeandian: src/main.o
+GeothmeticMeandian: src/main.o src/geometric_mean.o src/geothmetic_meandian.o src/helpers.o
 	$(CXX) $(CXXFLAGS) -o GeothmeticMeandian $^
 
 .PHONY:
