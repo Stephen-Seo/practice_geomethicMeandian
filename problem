@@ -1,0 +1,39 @@
+In mathematics, the arithmetic geometric mean of two positive real numbers is
+computed by repeatedly taking half their sum and the square root of their
+product until the two numbers converge. For instance, the arithmetic geometric
+mean of 24 and 6 is 13.456171…, with the iterative steps computed as follows:
+
+0  24                            6
+1  15                           12
+2  13.5                         13.416407864998738175455042
+3  13.458203932499369089227521  13.458139030990984877207090
+4  13.458171481745176983217305  13.458171481706053858316334
+5  13.458171481725615420766820  13.458171481725615420766806
+
+The arithmetic geometric mean was invented by Lagrange and studied by Gauss, and
+is used today to compute various transcendental functions because it converges
+so quickly.
+
+In the world of Randall Munroe, the geothmetic meandian of any set of positive
+numbers is computed by iterating three sequences — the arithmetic mean, the
+geometric mean, and the median — until they converge. For instance, the
+geothmetic meandian of the set (1,1,2,3,5) is 2.089, computed as follows:
+
+1  2.4                1.9743504858348200 2
+2  2.1247834952782734 2.1161924605448084 2
+3  2.0803253186076938 2.0795368194795802 2.1161924605448084
+4  2.0920181995440275 2.0919486049152223 2.0803253186076938
+5  2.0880973743556477 2.0880901331209600 2.0919486049152223
+6  2.0893787041306098 2.0893779142184865 2.0880973743556477
+7  2.0889513309015815 2.0889512436159920 2.0893779142184865
+8  2.0890934962453533 2.0890934865653277 2.0889513309015815
+9  2.0890461045707540 2.0890461034958396 2.0890934865653277
+
+[ I hate the damned new editor at WordPress; I struggle with it every time I
+post an exercise. I could not figure out how to embed the image from XKCD in
+this blog post. You can see it here. ]
+
+Your task is to write programs that compute the arithmetic geometric mean and
+geothmetic meandian. When you are finished, you are welcome to read or run a
+suggested solution, or to post your own solution or discuss the exercise in the
+comments below.
